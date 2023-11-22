@@ -3,14 +3,13 @@ import once from "once";
 import Peer from "simple-peer";
 import Socket from "simple-websocket";
 import {
-  hex2arr,
   hex2bin,
   text2arr,
-  arr2hex,
   arr2text,
   bin2hex,
   randomBytes,
-} from "uint8-util";
+} from "uint8-util/browser";
+import { arr2hex, hex2arr } from "uint8-util/util";
 const DESTROY_TIMEOUT = 1000;
 const RECONNECT_MINIMUM = 10 * 1000;
 const RECONNECT_MAXIMUM = 60 * 60 * 1000;
