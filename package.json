@@ -11,6 +11,6 @@
     "once": "^1.4.0",
     "simple-peer": "^9.11.1",
     "simple-websocket": "^9.1.0",
-    "uint8-util": "^2.2.4"
+    "uint8-util": "^2.2.5"
   }
 }
